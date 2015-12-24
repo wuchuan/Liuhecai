@@ -1,3 +1,93 @@
 <resources>
     <string name="app_name">Liuhecai</string>
+<string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="kill_tail">杀尾</string>
+    <string name="kill_lunar_new_year">杀生肖</string>
+    <string name="kill_days_shaw">杀天肖</string>
+    <string name="kill_to_shaw">杀地肖</string>
+    <string name="kill_poultry">杀家禽</string>
+    <string name="kill_wild_beast">杀野兽</string>
+    <string name="kill_bose">杀波色</string>
+    <string name="kill_special_section">杀特段</string>
+    <string name="kill_five">杀五行</string>
+    <string name="kill_head_count">杀头数</string>
+    <string name="kill_composite_number"> 杀合数</string>
+    <string name="kill_semi_mono">杀半单双</string>
+    <string name="kill_mono">杀单双</string>
+    <string name="kill_small_big">杀大小</string>
+    <string name="kill_other">杀其他</string>
+    <string name="kill_tieduan">杀特段</string>
+
+    <string name="days_shaw">天肖</string>
+    <string name="to_shaw">地肖</string>
+    <string name="poultry">家禽</string>
+    <string name="wild_beast">野兽</string>
+
+    <string name="number0">0</string>
+    <string name="number1">1</string>
+    <string name="number2">2</string>
+    <string name="number3">3</string>
+    <string name="number4">4</string>
+    <string name="number5">5</string>
+    <string name="number6">6</string>
+    <string name="number7">7</string>
+    <string name="number8">8</string>
+    <string name="number9">9</string>
+
+    <string name="rat">鼠</string>
+    <string name="ox">牛</string>
+    <string name="tiger">虎</string>
+    <string name="hare">兔</string>
+    <string name="dragon">龙</string>
+    <string name="snake">蛇</string>
+    <string name="horse">马</string>
+    <string name="sheep">羊</string>
+    <string name="monkey">猴</string>
+    <string name="cock">鸡</string>
+    <string name="dog">狗</string>
+    <string name="boar">猪</string>
+
+
+    <string name="red">红</string>
+    <string name="red_single">红单</string>
+    <string name="red_double">红双</string>
+    <string name="blue">蓝</string>
+    <string name="blue_single">蓝单</string>
+    <string name="blue_double">蓝双</string>
+    <string name="green">绿</string>
+    <string name="green_single">绿单</string>
+    <string name="green_double">绿双</string>
+
+    <string name="golen">金</string>
+    <string name="wood">木</string>
+    <string name="water">水</string>
+    <string name="fire">火</string>
+    <string name="earth">土</string>
+
+    <string name="big">大</string>
+    <string name="small">小</string>
+    <string name="tail_big">尾大</string>
+    <string name="tail_small">尾小</string>
+
+    <string name="close_math">合数</string>
+    <string name="close_duoble">合双</string>
+    <string name="close_signal">合单</string>
+    <string name="close_big">合大</string>
+    <string name="close_small">合小</string>
+
+    <string name="big_singel">大单</string>
+    <string name="big_duoble">大双</string>
+    <string name="small_singel">小单</string>
+    <string name="small_duoble">小双</string>
+
+    <string name="duoble">双</string>
+    <string name="singel">单</string>
+
+    <string name="hint_tip_duan_start">段开始</string>
+    <string name="hint_tip_duan_end">段结束</string>
+
+    <string name="button_number_statistics">号码统计</string>
+    <string name="button_start_close">开始缩水</string>
+
 </resources>

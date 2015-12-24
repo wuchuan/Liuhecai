@@ -1,16 +1,688 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_learn"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.liuhecai.wc.liuhecai.MainActivity">
+    android:orientation="vertical"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    tools:context="com.lhcfxgj.com.lhcfxgj.MainActivity">
 
-    <TextView
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
-</RelativeLayout>
+        android:gravity="center|left"
+        android:layout_marginTop="2dp">
+        <TextView
+            android:layout_width="@dimen/text_width"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size"
+
+            android:layout_gravity="center"
+            android:textColor="@color/ckeck_text_titel"
+            android:text="@string/kill_semi_mono" />
+
+        <CheckBox
+            android:id="@+id/small_singel"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/small_singel"
+            style="@style/CheckButtunStyle"
+            />
+
+        <CheckBox
+            android:id="@+id/big_singel"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/big_singel"
+            style="@style/CheckButtunStyle"
+            />
+
+        <CheckBox
+            android:id="@+id/small_duoble"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/small_duoble"
+            style="@style/CheckButtunStyle"
+            android:checked="false" />
+
+        <CheckBox
+            android:id="@+id/big_duoble"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/big_duoble"
+            style="@style/CheckButtunStyle"
+            android:checked="false" />
+
+
+        <TextView
+            android:layout_width="@dimen/text_width"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size"
+            android:layout_gravity="center"
+            android:textColor="@color/ckeck_text_titel"
+            android:text="@string/kill_other" />
+        <CheckBox
+            android:id="@+id/days_shaw"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/kill_days_shaw"
+            style="@style/CheckButtunStyle"
+            android:checked="false" />
+
+
+
+        <CheckBox
+            android:id="@+id/to_shaw"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/kill_to_shaw"
+            style="@style/CheckButtunStyle"
+            android:checked="false" />
+
+
+        <CheckBox
+            android:id="@+id/poultry"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/kill_poultry"
+            style="@style/CheckButtunStyle"
+            android:checked="false" />
+
+
+        <CheckBox
+            android:id="@+id/wild_beast"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/kill_wild_beast"
+            style="@style/CheckButtunStyle"
+            android:checked="false" />
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp">
+        <TextView
+            android:layout_width="@dimen/text_width"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size"
+            android:layout_gravity="center"
+            android:textColor="@color/ckeck_text_titel"
+            android:text="@string/kill_head_count" />
+        <CheckBox
+            android:id="@+id/head_0"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/number0"
+            android:tag="head_0"
+            style="@style/CheckButtunStyle"
+            />
+        <CheckBox
+            android:id="@+id/head_1"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/number1"
+            style="@style/CheckButtunStyle"
+            />
+        <CheckBox
+            android:id="@+id/head_2"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/number2"
+            style="@style/CheckButtunStyle"
+            />
+
+        <CheckBox
+            android:id="@+id/head_3"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/number3"
+            style="@style/CheckButtunStyle"
+            />
+        <CheckBox
+            android:id="@+id/head_4"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/number4"
+            style="@style/CheckButtunStyle"
+            />
+
+
+        <TextView
+            android:layout_width="@dimen/text_width"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size"
+            android:layout_gravity="center"
+            android:textColor="@color/ckeck_text_titel"
+            android:text="@string/kill_small_big" />
+
+        <CheckBox
+            android:id="@+id/small"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/small"
+            style="@style/CheckButtunStyle"
+            />
+
+        <CheckBox
+            android:id="@+id/big"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/big"
+            style="@style/CheckButtunStyle"
+            />
+
+        <CheckBox
+            android:id="@+id/tail_small"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/tail_small"
+            style="@style/CheckButtunStyle"
+            />
+
+        <CheckBox
+            android:id="@+id/tail_big"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/tail_big"
+            style="@style/CheckButtunStyle"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        >
+        <TextView
+            android:layout_width="@dimen/text_width"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size"
+            android:layout_gravity="center"
+            android:textColor="@color/ckeck_text_titel"
+            android:text="@string/kill_composite_number" />
+
+        <CheckBox
+            android:id="@+id/close_small"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/close_small"
+            style="@style/CheckButtunStyle"
+            />
+
+        <CheckBox
+            android:id="@+id/close_big"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/close_big"
+            style="@style/CheckButtunStyle"
+            />
+
+        <CheckBox
+            android:id="@+id/close_signal"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/close_signal"
+            style="@style/CheckButtunStyle"
+            />
+
+        <CheckBox
+            android:id="@+id/close_duoble"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/close_duoble"
+            style="@style/CheckButtunStyle"
+            />
+
+        <CheckBox
+            android:id="@+id/close_math"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/close_math"
+            style="@style/CheckButtunStyle"
+            />
+
+
+        <TextView
+            android:layout_width="@dimen/text_width"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size"
+            android:layout_gravity="center"
+            android:textColor="@color/ckeck_text_titel"
+            android:text="@string/kill_five" />
+        <CheckBox
+            android:id="@+id/golen"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/golen"
+            style="@style/CheckButtunStyle"
+            />
+        <CheckBox
+            android:id="@+id/wood"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/wood"
+            style="@style/CheckButtunStyle"
+            />
+        <CheckBox
+            android:id="@+id/water"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/water"
+            style="@style/CheckButtunStyle"
+            />
+
+        <CheckBox
+            android:id="@+id/fire"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/fire"
+            style="@style/CheckButtunStyle"
+            />
+        <CheckBox
+            android:id="@+id/earth"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/earth"
+            style="@style/CheckButtunStyle"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp">
+
+        <TextView
+            android:layout_width="@dimen/text_width"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size"
+            android:layout_gravity="center"
+            android:textColor="@color/ckeck_text_titel"
+            android:text="@string/kill_mono" />
+
+        <CheckBox
+            android:id="@+id/singel"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/singel"
+            style="@style/CheckButtunStyle"
+            />
+
+        <CheckBox
+            android:id="@+id/duoble"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/duoble"
+            style="@style/CheckButtunStyle"
+            android:checked="false" />
+
+
+
+
+        <TextView
+            android:layout_width="@dimen/text_width"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size"
+            android:layout_gravity="center"
+            android:layout_marginLeft="13dp"
+            android:textColor="@color/ckeck_text_titel"
+            android:text="@string/kill_bose" />
+        <CheckBox
+            android:id="@+id/checkBoxRed"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/red"
+            style="@style/CheckButtunStyle"
+            />
+        <CheckBox
+            android:id="@+id/checkBoxRed_single"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/red_single"
+            style="@style/CheckButtunStyle"
+            />
+        <CheckBox
+            android:id="@+id/checkBoxRed_double"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/red_double"
+            style="@style/CheckButtunStyle"
+            />
+
+        <CheckBox
+            android:id="@+id/checkBoxBlue"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/blue"
+            style="@style/CheckButtunStyle"
+            />
+        <CheckBox
+            android:id="@+id/checkBoxBlue_single"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/blue_single"
+            style="@style/CheckButtunStyle"
+            />
+
+        <CheckBox
+            android:id="@+id/checkBoxBlue_double"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/blue_double"
+            style="@style/CheckButtunStyle"
+            />
+        <CheckBox
+            android:id="@+id/checkBoxGreen"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/green"
+            style="@style/CheckButtunStyle"
+            />
+        <CheckBox
+            android:id="@+id/checkBoxSreen_single"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/green_single"
+            style="@style/CheckButtunStyle"
+            />
+        <CheckBox
+            android:id="@+id/checkBoxGreen_double"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/green_double"
+            style="@style/CheckButtunStyle"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp">
+        <TextView
+            android:layout_width="@dimen/text_width"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size"
+            android:layout_gravity="center"
+            android:textColor="@color/ckeck_text_titel"
+            android:text="@string/kill_tail" />
+        <CheckBox
+            android:id="@+id/checkBox0"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/number0"
+            style="@style/CheckButtunStyle"
+            />
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/number1"
+            style="@style/CheckButtunStyle"
+            />
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/number2"
+            style="@style/CheckButtunStyle"
+            />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/number3"
+            style="@style/CheckButtunStyle"
+            />
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/number4"
+            style="@style/CheckButtunStyle"
+            />
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/number5"
+            style="@style/CheckButtunStyle"
+            />
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/number6"
+            style="@style/CheckButtunStyle"
+            />
+        <CheckBox
+            android:id="@+id/checkBox7"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/number7"
+            style="@style/CheckButtunStyle"
+            />
+        <CheckBox
+            android:id="@+id/checkBox8"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/number8"
+            style="@style/CheckButtunStyle"
+            />
+        <CheckBox
+            android:id="@+id/checkBox9"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/number9"
+            style="@style/CheckButtunStyle"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp">
+        <TextView
+            android:layout_width="@dimen/text_width"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size"
+            android:layout_gravity="center"
+            android:textColor="@color/ckeck_text_titel"
+            android:text="@string/kill_lunar_new_year" />
+        <CheckBox
+            android:id="@+id/checkBoxRat"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/rat"
+            style="@style/CheckButtunStyle"
+            />
+        <CheckBox
+            android:id="@+id/checkBoxOx"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/ox"
+            style="@style/CheckButtunStyle"
+            />
+        <CheckBox
+            android:id="@+id/checkBoxTiger"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/tiger"
+            style="@style/CheckButtunStyle"
+            />
+
+        <CheckBox
+            android:id="@+id/checkBoxHare"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/hare"
+            style="@style/CheckButtunStyle"
+            />
+        <CheckBox
+            android:id="@+id/checkBoxDragon"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/dragon"
+            style="@style/CheckButtunStyle"
+            />
+        <CheckBox
+            android:id="@+id/checkBoxSnake"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/snake"
+            style="@style/CheckButtunStyle"
+            />
+        <CheckBox
+            android:id="@+id/checkBoxHorse"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/horse"
+            style="@style/CheckButtunStyle"
+            />
+        <CheckBox
+            android:id="@+id/checkBoxSheep"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/sheep"
+            style="@style/CheckButtunStyle"
+            />
+        <CheckBox
+            android:id="@+id/checkBoxMonkey"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/monkey"
+            style="@style/CheckButtunStyle"
+            />
+        <CheckBox
+            android:id="@+id/checkBoxCock"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/cock"
+            style="@style/CheckButtunStyle"
+            />
+        <CheckBox
+            android:id="@+id/checkBoxDog"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/dog"
+            style="@style/CheckButtunStyle"
+            />
+        <CheckBox
+            android:id="@+id/checkBoxBoar"
+            android:layout_width="@dimen/check_button_wight"
+            android:layout_height="@dimen/check_button_hight"
+            android:text="@string/boar"
+            style="@style/CheckButtunStyle"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="@dimen/text_width"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"
+                android:layout_gravity="center"
+                android:textColor="@color/ckeck_text_titel"
+                android:text="@string/kill_tieduan"/>
+            <EditText
+                android:id="@+id/duan_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textSize="@dimen/text_size"
+                android:gravity="center"
+                android:hint="@string/hint_tip_duan_start"/>
+            <EditText
+                android:id="@+id/duan_end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:singleLine="true"
+                android:gravity="center"
+                android:textSize="@dimen/text_size"
+                android:hint="@string/hint_tip_duan_end"/>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/button_start_close"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/button_start_close"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/button_number_statistics"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/button_number_statistics"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/text_namber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/ckeck_text_titel"
+            android:text="杀剩：16个号码" />
+
+        <EditText
+            android:id="@+id/text_result"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="3dp"
+            android:background="#2222"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/ckeck_text_titel"
+            android:text="历史数据：" />
+
+        <EditText
+            android:id="@+id/text_history"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="3dp"
+            android:background="#2222"/>
+    </LinearLayout>
+</LinearLayout>
