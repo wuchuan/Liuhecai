@@ -28,6 +28,7 @@
             android:id="@+id/small_singel"
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
+            android:tag="@string/tag_small_singel"
             android:text="@string/small_singel"
             style="@style/CheckButtunStyle"
             />
@@ -37,6 +38,7 @@
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/big_singel"
+            android:tag="@string/tag_big_singel"
             style="@style/CheckButtunStyle"
             />
 
@@ -45,6 +47,7 @@
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/small_duoble"
+            android:tag="@string/tag_small_duoble"
             style="@style/CheckButtunStyle"
             android:checked="false" />
 
@@ -53,6 +56,7 @@
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/big_duoble"
+            android:tag="@string/tag_big_duoble"
             style="@style/CheckButtunStyle"
             android:checked="false" />
 
@@ -69,6 +73,7 @@
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/kill_days_shaw"
+            android:tag="@string/tag_days_shaw"
             style="@style/CheckButtunStyle"
             android:checked="false" />
 
@@ -79,6 +84,7 @@
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/kill_to_shaw"
+            android:tag="@string/tag_to_shaw"
             style="@style/CheckButtunStyle"
             android:checked="false" />
 
@@ -88,6 +94,7 @@
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/kill_poultry"
+            android:tag="@string/tag_kill_poultry"
             style="@style/CheckButtunStyle"
             android:checked="false" />
 
@@ -98,6 +105,7 @@
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/kill_wild_beast"
             style="@style/CheckButtunStyle"
+            android:tag="@string/tag_kill_wild_beast"
             android:checked="false" />
 
 
@@ -122,18 +130,20 @@
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/number0"
-            android:tag="head_0"
+            android:tag="@string/tag_head_0"
             style="@style/CheckButtunStyle"
             />
         <CheckBox
             android:id="@+id/head_1"
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
+            android:tag="@string/tag_head_1"
             android:text="@string/number1"
             style="@style/CheckButtunStyle"
             />
         <CheckBox
             android:id="@+id/head_2"
+            android:tag="@string/tag_head_2"
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/number2"
@@ -142,6 +152,7 @@
 
         <CheckBox
             android:id="@+id/head_3"
+            android:tag="@string/tag_head_3"
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/number3"
@@ -149,6 +160,7 @@
             />
         <CheckBox
             android:id="@+id/head_4"
+            android:tag="@string/tag_head_4"
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/number4"
@@ -166,6 +178,7 @@
 
         <CheckBox
             android:id="@+id/small"
+            android:tag="@string/tag_small"
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/small"
@@ -174,6 +187,7 @@
 
         <CheckBox
             android:id="@+id/big"
+            android:tag="@string/tag_big"
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/big"
@@ -182,6 +196,7 @@
 
         <CheckBox
             android:id="@+id/tail_small"
+            android:tag="@string/tag_tail_small"
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/tail_small"
@@ -190,6 +205,7 @@
 
         <CheckBox
             android:id="@+id/tail_big"
+            android:tag="@string/tag_tail_big"
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/tail_big"
@@ -214,6 +230,7 @@
 
         <CheckBox
             android:id="@+id/close_small"
+            android:tag="@string/tag_close_small"
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/close_small"
@@ -222,6 +239,7 @@
 
         <CheckBox
             android:id="@+id/close_big"
+            android:tag="@string/tag_close_big"
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/close_big"
@@ -230,6 +248,7 @@
 
         <CheckBox
             android:id="@+id/close_signal"
+            android:tag="@string/tag_close_signal"
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/close_signal"
@@ -238,6 +257,7 @@
 
         <CheckBox
             android:id="@+id/close_duoble"
+            android:tag="@string/tag_close_duoble"
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/close_duoble"
@@ -246,6 +266,7 @@
 
         <CheckBox
             android:id="@+id/close_math"
+            android:tag="@string/tag_close_math"
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/close_math"
@@ -262,6 +283,7 @@
             android:text="@string/kill_five" />
         <CheckBox
             android:id="@+id/golen"
+            android:tag="@string/tag_golen"
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/golen"
@@ -269,6 +291,7 @@
             />
         <CheckBox
             android:id="@+id/wood"
+            android:tag="@string/tag_wood"
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/wood"
@@ -276,6 +299,7 @@
             />
         <CheckBox
             android:id="@+id/water"
+            android:tag="@string/tag_water"
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/water"
@@ -284,6 +308,7 @@
 
         <CheckBox
             android:id="@+id/fire"
+            android:tag="@string/tag_fire"
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/fire"
@@ -291,6 +316,7 @@
             />
         <CheckBox
             android:id="@+id/earth"
+            android:tag="@string/tag_earth"
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/earth"
@@ -318,6 +344,7 @@
 
         <CheckBox
             android:id="@+id/singel"
+            android:tag="@string/tag_singel"
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/singel"
@@ -326,6 +353,7 @@
 
         <CheckBox
             android:id="@+id/duoble"
+            android:tag="@string/tag_duoble"
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/duoble"
@@ -345,6 +373,7 @@
             android:text="@string/kill_bose" />
         <CheckBox
             android:id="@+id/checkBoxRed"
+            android:tag="@string/tag_red"
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/red"
@@ -352,6 +381,7 @@
             />
         <CheckBox
             android:id="@+id/checkBoxRed_single"
+            android:tag="@string/tag_red_single"
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/red_single"
@@ -359,6 +389,7 @@
             />
         <CheckBox
             android:id="@+id/checkBoxRed_double"
+            android:tag="@string/tag_red_double"
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/red_double"
@@ -367,6 +398,7 @@
 
         <CheckBox
             android:id="@+id/checkBoxBlue"
+            android:tag="@string/tag_blue"
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/blue"
@@ -374,6 +406,7 @@
             />
         <CheckBox
             android:id="@+id/checkBoxBlue_single"
+            android:tag="@string/tag_blue_single"
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/blue_single"
@@ -382,6 +415,7 @@
 
         <CheckBox
             android:id="@+id/checkBoxBlue_double"
+            android:tag="@string/tag_blue_double"
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/blue_double"
@@ -389,6 +423,7 @@
             />
         <CheckBox
             android:id="@+id/checkBoxGreen"
+            android:tag="@string/tag_green"
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/green"
@@ -396,6 +431,7 @@
             />
         <CheckBox
             android:id="@+id/checkBoxSreen_single"
+            android:tag="@string/tag_green_single"
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/green_single"
@@ -403,6 +439,7 @@
             />
         <CheckBox
             android:id="@+id/checkBoxGreen_double"
+            android:tag="@string/tag_green_double"
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/green_double"
@@ -428,6 +465,7 @@
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/number0"
+            android:tag="@string/tag_number0"
             style="@style/CheckButtunStyle"
             />
         <CheckBox
@@ -435,6 +473,7 @@
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/number1"
+            android:tag="@string/tag_number1"
             style="@style/CheckButtunStyle"
             />
         <CheckBox
@@ -442,6 +481,7 @@
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/number2"
+            android:tag="@string/tag_number2"
             style="@style/CheckButtunStyle"
             />
 
@@ -450,6 +490,7 @@
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/number3"
+            android:tag="@string/tag_number3"
             style="@style/CheckButtunStyle"
             />
         <CheckBox
@@ -457,6 +498,7 @@
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/number4"
+            android:tag="@string/tag_number4"
             style="@style/CheckButtunStyle"
             />
         <CheckBox
@@ -464,6 +506,7 @@
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/number5"
+            android:tag="@string/tag_number5"
             style="@style/CheckButtunStyle"
             />
         <CheckBox
@@ -471,6 +514,7 @@
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/number6"
+            android:tag="@string/tag_number6"
             style="@style/CheckButtunStyle"
             />
         <CheckBox
@@ -478,6 +522,7 @@
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/number7"
+            android:tag="@string/tag_number7"
             style="@style/CheckButtunStyle"
             />
         <CheckBox
@@ -485,6 +530,7 @@
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/number8"
+            android:tag="@string/tag_number8"
             style="@style/CheckButtunStyle"
             />
         <CheckBox
@@ -492,6 +538,7 @@
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/number9"
+            android:tag="@string/tag_number9"
             style="@style/CheckButtunStyle"
             />
 
@@ -513,6 +560,7 @@
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/rat"
+            android:tag="@string/tag_rat"
             style="@style/CheckButtunStyle"
             />
         <CheckBox
@@ -520,6 +568,7 @@
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/ox"
+            android:tag="@string/tag_ox"
             style="@style/CheckButtunStyle"
             />
         <CheckBox
@@ -527,6 +576,7 @@
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/tiger"
+            android:tag="@string/tag_tiger"
             style="@style/CheckButtunStyle"
             />
 
@@ -535,6 +585,7 @@
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/hare"
+            android:tag="@string/tag_hare"
             style="@style/CheckButtunStyle"
             />
         <CheckBox
@@ -542,6 +593,7 @@
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/dragon"
+            android:tag="@string/tag_dragon"
             style="@style/CheckButtunStyle"
             />
         <CheckBox
@@ -549,6 +601,7 @@
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/snake"
+            android:tag="@string/tag_snake"
             style="@style/CheckButtunStyle"
             />
         <CheckBox
@@ -556,6 +609,7 @@
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/horse"
+            android:tag="@string/tag_horse"
             style="@style/CheckButtunStyle"
             />
         <CheckBox
@@ -563,6 +617,7 @@
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/sheep"
+            android:tag="@string/tag_sheep"
             style="@style/CheckButtunStyle"
             />
         <CheckBox
@@ -570,6 +625,7 @@
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/monkey"
+            android:tag="@string/tag_monkey"
             style="@style/CheckButtunStyle"
             />
         <CheckBox
@@ -577,6 +633,7 @@
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/cock"
+            android:tag="@string/tag_cock"
             style="@style/CheckButtunStyle"
             />
         <CheckBox
@@ -584,6 +641,7 @@
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/dog"
+            android:tag="@string/tag_boar"
             style="@style/CheckButtunStyle"
             />
         <CheckBox
@@ -591,6 +649,7 @@
             android:layout_width="@dimen/check_button_wight"
             android:layout_height="@dimen/check_button_hight"
             android:text="@string/boar"
+            android:tag="@string/tag_boar"
             style="@style/CheckButtunStyle"
             />
 
@@ -619,6 +678,8 @@
                 android:layout_height="wrap_content"
                 android:inputType="number"
                 android:singleLine="true"
+                android:tag="duan_start"
+                android:maxLength="2"
                 android:textSize="@dimen/text_size"
                 android:gravity="center"
                 android:hint="@string/hint_tip_duan_start"/>
@@ -630,6 +691,7 @@
                 android:singleLine="true"
                 android:gravity="center"
                 android:textSize="@dimen/text_size"
+                android:maxLength="2"
                 android:hint="@string/hint_tip_duan_end"/>
 
         </LinearLayout>
